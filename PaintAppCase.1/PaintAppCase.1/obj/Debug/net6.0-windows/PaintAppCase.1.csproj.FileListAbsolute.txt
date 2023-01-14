@@ -16,3 +16,21 @@ C:\Users\Yağız UÇAR\source\repos\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6
 C:\Users\Yağız UÇAR\source\repos\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\PaintAppCase.1.genruntimeconfig.cache
 C:\Users\Yağız UÇAR\source\repos\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\ref\PaintAppCase.1.dll
 C:\Users\Yağız UÇAR\source\repos\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\PaintAppCase._1.Properties.Resources.resources
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\bin\Debug\net6.0-windows\PaintAppCase.1.exe
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\bin\Debug\net6.0-windows\PaintAppCase.1.deps.json
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\bin\Debug\net6.0-windows\PaintAppCase.1.runtimeconfig.json
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\bin\Debug\net6.0-windows\PaintAppCase.1.dll
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\bin\Debug\net6.0-windows\PaintAppCase.1.pdb
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\PaintAppCase.1.csproj.AssemblyReference.cache
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\PaintAppCase._1.Form1.resources
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\PaintAppCase._1.Properties.Resources.resources
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\PaintAppCase.1.csproj.GenerateResource.cache
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\PaintAppCase.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\PaintAppCase.1.AssemblyInfoInputs.cache
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\PaintAppCase.1.AssemblyInfo.cs
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\PaintAppCase.1.csproj.CoreCompileInputs.cache
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\PaintAppCase.1.dll
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\refint\PaintAppCase.1.dll
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\PaintAppCase.1.pdb
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\PaintAppCase.1.genruntimeconfig.cache
+C:\Users\Yagiz\Desktop\PaintAppCase.1\PaintAppCase.1\obj\Debug\net6.0-windows\ref\PaintAppCase.1.dll

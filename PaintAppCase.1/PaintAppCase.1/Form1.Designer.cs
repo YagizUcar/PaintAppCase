@@ -163,6 +163,7 @@
             this.Triangle.Text = "Triangle";
             this.Triangle.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Triangle.UseVisualStyleBackColor = false;
+            this.Triangle.Click += new System.EventHandler(this.Triangle_Click);
             // 
             // Square
             // 

@@ -1,4 +1,5 @@
 using Microsoft.VisualBasic.ApplicationServices;
+using System.Drawing;
 using System.Drawing.Imaging;
 
 namespace PaintAppCase._1
@@ -58,13 +59,14 @@ namespace PaintAppCase._1
                     g.DrawLine(erase, px, py);
                     py = px;
                 }
+
             }
             pic.Refresh();
 
             x = e.X; 
             y=e.Y;
-            sX= e.X-cX;
-            sY= e.Y-cY;
+            sX = e.X-cX;
+            sY = e.Y-cY;
         }
 
         private void pic_Paint(object sender, PaintEventArgs e)
@@ -76,14 +78,23 @@ namespace PaintAppCase._1
             {
                 if (index == 3)
                 {
-                    g.DrawEllipse(p, cX, cY, sX, sY);
+                    g.FillEllipse(p.Brush, cX, cY, sX, sY);
                    
                
                 }
                 if (index == 4)
                 {
-                    g.DrawRectangle(p, cX, cY, sX, sY);
+                    g.FillRectangle(p.Brush, cX, cY, sX, sY);
                  
+                }
+                if (index == 5)
+                {
+                    //g.DrawPolygon(p, cX, cY, sX, sY);
+                    g.FillPolygon(p.Brush, new PointF[] { new PointF(cX, cY), new PointF(x-cX, y), new PointF(x, y) });
+                    //Console.WriteLine("a");
+                }
+                if (index == 6)
+                {
                 }
             }
         }
@@ -100,13 +111,21 @@ namespace PaintAppCase._1
 
             if(index==3)
             {
-                g.DrawEllipse(p,cX,cY,sX,sY);
+                g.FillEllipse(p.Brush,cX,cY,sX,sY);
             }
             if(index==4) 
             {
-                g.DrawRectangle (p, cX, cY, sX, sY);
+                g.FillRectangle (p.Brush, cX, cY, sX, sY);
             }
-            
+            if (index == 5)
+            {
+                g.FillPolygon(p.Brush, new PointF[] { new PointF(cX, cY), new PointF(x - cX, y), new PointF(x, y) });
+            }
+            if (index == 6)
+            {
+                //g.FillPolygon(p.Brush, new PointF[] { new PointF(cX, cY), new PointF(x - cX, y), new PointF(x, y) });
+            }
+
         }
 
         private void btn_color_Click(object sender, EventArgs e)
@@ -128,6 +147,13 @@ namespace PaintAppCase._1
             }
         }
 
+        private void Triangle_Click(object sender, EventArgs e)
+        {
+            index = 5;
+           // g.FillPolygon(p.Brush, new Point[] { new Point(150, 100), new Point(100, 200), new Point(200, 200) });
+
+        }
+
         private void pencil_Click(object sender, EventArgs e)
         {
             index = 1;
@@ -147,8 +173,23 @@ namespace PaintAppCase._1
         }
         private void SixA_Click(object sender, EventArgs e)
         {
-            
+            //index = 6;
 
+            var x_0 = panel1.Width / 2;
+            var y_0 = panel1.Height / 2;
+            var shape = new PointF[6];
+
+            var r = 70; //70 px radius 
+
+            //Create 6 points
+            for (int a = 0; a < 6; a++)
+            {
+                shape[a] = new PointF(
+                    x_0 + r * (float)Math.Cos(a * 60 * Math.PI / 180f),
+                    y_0 + r * (float)Math.Sin(a * 60 * Math.PI / 180f));
+            }
+
+            g.FillPolygon(p.Brush, shape);
         }
         private void Clean_Click(object sender, EventArgs e)
         {

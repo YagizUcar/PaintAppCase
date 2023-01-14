@@ -8,24 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Yağız Uçar\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Yagiz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yağız UÇAR\\Desktop\\PaintAppCase.1\\PaintAppCase.1\\PaintAppCase.1.csproj",
+      "projectUniqueName": "C:\\Users\\Yagiz\\Desktop\\PaintAppCase.1\\PaintAppCase.1\\PaintAppCase.1.csproj",
       "projectName": "PaintAppCase.1",
-      "projectPath": "C:\\Users\\Yağız UÇAR\\Desktop\\PaintAppCase.1\\PaintAppCase.1\\PaintAppCase.1.csproj",
-      "packagesPath": "C:\\Users\\Yağız Uçar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yağız UÇAR\\Desktop\\PaintAppCase.1\\PaintAppCase.1\\obj\\",
+      "projectPath": "C:\\Users\\Yagiz\\Desktop\\PaintAppCase.1\\PaintAppCase.1\\PaintAppCase.1.csproj",
+      "packagesPath": "C:\\Users\\Yagiz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yagiz\\Desktop\\PaintAppCase.1\\PaintAppCase.1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Yağız Uçar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Yagiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
